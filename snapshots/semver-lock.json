@@ -40,8 +40,8 @@
     "sourceCodeHash": "0x7a1a6d240844c8e90e89a582d8d7b43e14c87ec22ec697cb3828682cfceb8470"
   },
   "src/L1/proofs/DisputeGameFactory.sol:DisputeGameFactory": {
-    "initCodeHash": "0x727de8dbfd3432d95e19c39ece5ac7aec183dd67a09db769791d0e835e365d88",
-    "sourceCodeHash": "0xf6ca679ff7463ade68e1ad1ae49f5b406e0c723ec1a2a718828f6bec12c8e8a6"
+    "initCodeHash": "0x17bd83cfb6911f7f7f74880249e6bf4e2b2884aed611f6fec8b589d5083f22d1",
+    "sourceCodeHash": "0x62ff0209cffa08e5aaaaac47e0f22d89ea1fa6a0ea8773a162ab7230e50806ee"
   },
   "src/L1/proofs/tee/NitroEnclaveVerifier.sol:NitroEnclaveVerifier": {
     "initCodeHash": "0x1be3b9418c022094fb60ea68d025910c69e95c7a2314bf1b57c740f601b7cb0e",
