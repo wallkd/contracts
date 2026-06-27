@@ -2,8 +2,7 @@
 
 # contracts
 
-This repo contains contracts and scripts for Base.
-Note that Base primarily utilizes Optimism's bedrock contracts located in Optimism's repo [here](https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts-bedrock).
+This repo contains the contracts and scripts for Base.
 For contract deployment artifacts, see [base-org/contract-deployments](https://github.com/base-org/contract-deployments).
 
 <!-- Badge row 1 - status -->
@@ -27,8 +26,23 @@ For contract deployment artifacts, see [base-org/contract-deployments](https://g
 [![GitHub pull requests by-label](https://img.shields.io/github/issues-pr-raw/base-org/contracts)](https://github.com/base/contracts/pulls)
 [![GitHub Issues](https://img.shields.io/github/issues-raw/base-org/contracts.svg)](https://github.com/base/contracts/issues)
 
+### Fixing semver-lock CI failures
+
+If the `semver-lock` CI check fails, regenerate locally and commit:
+
+```bash
+just semver-lock
+```
+
+If CI still rejects it (Foundry version mismatch), update your local Foundry first:
+
+```bash
+foundryup
+just semver-lock
+```
+
 ### setup and testing
 
-- If you don't have foundry installed, run `make install-foundry`.
-- `make deps`
-- Test contracts: `make test`
+- If you don't have foundry installed, run `just install-foundry`.
+- `just deps`
+- Test contracts: `just test`
